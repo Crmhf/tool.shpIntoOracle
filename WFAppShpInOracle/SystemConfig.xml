@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+<SystemConfig>
+  <key name="UserName" value="test" />
+  <key name="Password" value="8888888" />
+  <key name="OracleDatebase" value="192.168.2.8:1521/orcl" />
+  <key name="GEOM" value="2364" />
+  <key name="TablePrefix" value="Cr" />
+  <key name="ShpName" value="Export_Output" />
+  <key name="help" value="1. 把shp数据文件和导入软件及shp2sdo.exe放在同一个文件夹目录下。
+2. 将shp文件命名为英文（必须为英文）。
+3. 运行导入工具WFAppShpInOracle.exe。
+4. 将数据库的用户名、密码、数据库地址填写正确。
+5. 填入空间坐标代号，巴盟的代号为2361。
+6. 填写表前缀，默认为Cr，建议填写为LAND。即当数据导入到数据库之后，在数据库中的表名为LAND_SHP文件名。
+7. 将shp文件中后缀为.shp的文件拖入到软件中的“请拖入Shp”框中。
+8. 依次点击“创建文件”——创建SQL——创建表——输出空间索引——插入数据。此操作是将数据导入到数据库中去。其中在点击了“输出空间索引”按钮之后，会在文件夹中生成一个runIndex.sql文件。
+9. 在完成数据导入之后，用PLSQL打开数据库，运行runIndex.sql中的语句。
+
+程序问题联系:chir chir@esrichina.com.cn
+使用问题联系：光光 guangcongn@kotei-info.com" />
+</SystemConfig>
